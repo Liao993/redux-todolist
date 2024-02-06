@@ -5,7 +5,7 @@ import TotalCompleteItems from "./components/TotalCompleteItems";
 function App() {
   return (
     <div className="max-w-[600px] m-auto p-4">
-      <h1 className="text-5xl text-center mb-20">My Todo List</h1>
+      <h1 className="text-5xl text-center mb-20">My Daily Todo List</h1>
       <AddTodoForm />
       <TodoList />
       <TotalCompleteItems />
